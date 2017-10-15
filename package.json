@@ -1,0 +1,31 @@
+{
+  "name": "artgallery",
+  "version": "0.0.1",
+  "description": "A personal art gallery site.",
+  "author": "Kayla Lind & Brandon Lind",
+  "license": "MIT",
+  "homepage": "https://github.com/Catayla2703/artgallery#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Catayla2703/artgallery.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Catayla2703/artgallery/issues"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "6.9.5",
+    "npm": "3.10.10"
+  },
+  "devDependencies": {
+    "eslint": "4.8.0"
+  },
+  "dependencies": {
+    "body-parser": "1.17.1",
+    "express": "4.15.2"
+  }
+}
